@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: burlywood;
+}
+.navbar {
+    background-color: transparent;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+.navbar-brand {
+    max-width: 100px;
+    padding: 0 15px 20px;
+    color: white;
+    font-size: 110%;
+}
+#brand-image {
+    max-height: 45px;
+    padding: 0 0 5px 0;
+    opacity: 0.5;
+}
+.navbar-default .navbar-nav li a {
+    color: moccasin;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+    color: #ffffff;
+}
+#home {
+    background: url(img/back.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text {
+    display: table-cell;
+    color: gainsboro;
+    text-emphasis-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+.padding {
+    padding: 80px 0;
+}
+.padding img {
+    width: 100%;
+}
+#fixed {
+    background: url(img/sunset.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    background-color: transparent;
+    padding: 5% 5% 10% 5%;
+   
+}
+.fab {
+    padding: 15px;
+    font-size: 25px;
+}
+.fab:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter-square {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google-plus-square {
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #d6249f;
+    color: #ffffff;  
+}
+.icon {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .fab {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100%;
+    }
+}
